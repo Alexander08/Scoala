@@ -210,8 +210,8 @@ ApartamentSocial::ApartamentSocial(int an_constructie, char * localitate, double
 	this->chirie = (int)chirie;
 }
 
-//ApartamentSocial::~ApartamentSocial()
-//{
-//	if (this->locatar != NULL)
-//			delete[] this->locatar;
-//}
+ApartamentSocial::~ApartamentSocial()
+{
+	if (this->locatar != NULL)
+			delete[] this->locatar;
+}
